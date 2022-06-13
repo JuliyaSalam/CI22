@@ -33,7 +33,7 @@ public class PostmanEchoTest {
 
                 .then()
                 .statusCode(200)
-                .header("Content-Type", "application/json; charset=UTF-8")
+                .header("Content-Type", "application/json; charset=UTFg-8")
                 .body("data", equalTo("some data"))
         ;
     }
